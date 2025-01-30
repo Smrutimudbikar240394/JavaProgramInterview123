@@ -1,0 +1,37 @@
+package StringProgram;
+
+public class ReverseEvenIndexWordInStatement 
+{
+	public static void main(String[] args) 
+	{
+		String str="My name is ABC";
+		String[] ar=str.split(" ");
+		
+		for(int i=0;i<ar.length;i++)
+		{
+			String org=ar[i];
+			
+			if(i%2==0)
+			{
+				String rev=ReverseString(org);
+				System.out.println(rev+" ");
+			}
+			else
+			{
+				System.out.println(org);
+			}
+		}
+		
+	}
+
+	private static String ReverseString(String str) {
+		String rev="";
+		for(int j=str.length()-1;j>=0;j--)
+		{
+			rev=rev+str.charAt(j);
+			
+		}
+		return rev;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Maven12&apos; to &apos;BDDCucumberProject&apos;" description="Rename resource &apos;Maven12&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Maven12" name="BDDCucumberProject" stamp="1735062150452" updateReferences="true"/>
+</session>

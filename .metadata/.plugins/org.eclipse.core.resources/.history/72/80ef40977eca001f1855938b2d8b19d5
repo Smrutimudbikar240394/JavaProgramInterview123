@@ -1,0 +1,15 @@
+package javaProgram;
+
+
+
+public class thisAndSuperKeyword extends test1
+{
+	int p=20;
+	
+	public void m11()
+	{
+		
+	
+	}
+
+}

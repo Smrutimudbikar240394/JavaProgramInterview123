@@ -1,0 +1,31 @@
+package StringProgram;
+
+public class SeperateNAddNumberFromString 
+{
+	public static void main(String[] args) 
+	{
+		String s1="abc123";
+		String s2=s1.substring(3);
+		
+		int n1=Integer.parseInt(s2);
+		System.out.println(n1+7);
+		
+		
+		String str="a2b4f5g5h5";
+		int count=0;
+		
+		for(int i=0;i<str.length();i++)
+		{
+			char ch=str.charAt(i);
+			
+				if(Character.isDigit(ch))
+				{
+					count=count+Character.getNumericValue(ch);
+					
+				}
+		}
+		System.out.println(count);
+		
+	}
+
+}

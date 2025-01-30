@@ -1,0 +1,18 @@
+package StringProgram;
+
+public class RemoveSpaceFromString 
+{
+	public static void main(String[] args) 
+	{
+		String str="The Sun is the brightest star";
+		System.out.println("Given String"+str);
+		
+		//Remove space
+		String newstr=str.replaceAll(" ","");
+		
+		//result without space
+		System.out.println("String Without Spaces    :        "+newstr);
+		
+	}
+
+}

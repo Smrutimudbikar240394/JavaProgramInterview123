@@ -1,0 +1,39 @@
+package TestPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class multiBrowserTesting 
+{
+	
+	@Parameters({"browserNAme"})
+	@Test
+	public void LoginTC(String browser) 
+	{
+		WebDriver driver = null;
+		
+		if(browser.equals("chrome"))
+		{
+			driver=new ChromeDriver();
+		}
+		
+		else if(browser.equals("firefox"))
+		{
+			driver=new FirefoxDriver();
+		}
+		
+		else if(browser.equals("edge"))
+		{
+			driver=new EdgeDriver();
+		}
+		
+		driver.get("https://www.flipkart.com");
+		System.out.println("flipkart App");
+		System.out.println("Browser launched: " + browser);
+	}
+
+}

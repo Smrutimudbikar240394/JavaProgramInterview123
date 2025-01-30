@@ -1,0 +1,6 @@
+Feature: Login Functionality
+Scenario: Login Successfull
+Given: User is on login page
+When : User enter usernmae
+And User click on password
+Then User is redirected to dashboard page

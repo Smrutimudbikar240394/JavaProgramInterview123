@@ -1,0 +1,25 @@
+package StringProgram;
+
+public class RemoveCharFromString 
+{
+	public static void main(String[] args) {
+		
+		String str="12abc12abdf12";
+		int digit=0;
+		String newString="";
+		for(int i=0;i<str.length();i++)
+		{
+			if(Character.isDigit(str.charAt(i)))
+			{
+				newString=newString+str.charAt(i);
+			}
+		}
+		System.out.println(newString);
+		
+		
+		String str1="abc345sbcrfg34abcd45";
+		String result = str1.replaceAll("[^0-9]", "");
+		System.out.println(result);
+	}
+
+}

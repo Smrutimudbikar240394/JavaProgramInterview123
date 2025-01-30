@@ -1,0 +1,13 @@
+package javaProgram;
+
+public class finalChildClass extends finalParentClass
+{
+	public static void main(String[] args) 
+	{
+		finalParentClass fpc1=new finalParentClass();
+		fpc1.m1();
+		
+		
+	}
+
+}

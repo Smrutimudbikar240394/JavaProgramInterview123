@@ -1,0 +1,18 @@
+package TestPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class emailableReportInTestNGProgram 
+{
+	public void TC1() throws Exception
+	{
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://parabank.parasoft.com/parabank/login.htm");
+		
+		Thread.sleep(3000);
+		driver.close();
+	}
+	
+
+}

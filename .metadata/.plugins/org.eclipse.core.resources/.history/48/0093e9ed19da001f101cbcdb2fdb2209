@@ -1,0 +1,27 @@
+package TestPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class multiBrowserTesting 
+{
+	
+	@Test
+	public void LoginTC(String browserNAme)
+	{
+		WebDriver driver;
+		
+		if(browserNAme.equals("chrome"))
+		{
+			driver=new ChromeDriver();
+		}
+		
+		else if(browserNAme.equals("firefox"))
+		{
+			driver=new FirefoxDriver();
+		}
+		
+	}
+
+}

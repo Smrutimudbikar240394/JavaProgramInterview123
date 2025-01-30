@@ -1,0 +1,22 @@
+package TestPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class parallelFlipkart 
+{
+	@Test
+    public void loginToFlipkart() {
+        System.out.println("Flipkart login");
+        WebDriver driver=new ChromeDriver();
+        driver.get("https://www.flipkart.com");
+    }
+	 @Test
+	 public void TC1()
+	 {
+		 Reporter.log("TC1 Fliptkart Running",true);
+	 }
+
+}

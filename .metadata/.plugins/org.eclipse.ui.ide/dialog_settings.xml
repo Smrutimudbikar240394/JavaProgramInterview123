@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\JAVA VEL\10thAug24_SeleniumProject-master"/>
+			<item value="E:\JAVA VEL\10thAug24_JavaProject-master"/>
+			<item value="E:\JAVA VEL\10thAug_Framework_MavenProject-master (2)"/>
+			<item value="E:\java and selenium\KiteZerodhaMavenViman"/>
+			<item value="E:\JAVA VEL\BDDCucumberProject"/>
+			<item value="E:\JAVA VEL\gitDemoTest"/>
+			<item value="E:\JAVA VEL\SauceDemo"/>
+			<item value="E:\JAVA VEL\saucedemoMavenProject"/>
+			<item value="E:\JAVA VEL\Sel"/>
+			<item value="E:\JAVA VEL\Testing Project"/>
+			<item value="E:\JAVA VEL\Test1Git"/>
+			<item value="E:\JAVA VEL\MavenProjectTestProject"/>
+			<item value="E:\JAVA VEL\GitProjectPractice1"/>
+			<item value="E:\JAVA VEL\10thAug2024_JavaCode"/>
+			<item value="E:\JAVA VEL\S_JAVA"/>
+			<item value="E:\JAVA VEL\JAVAProgram"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

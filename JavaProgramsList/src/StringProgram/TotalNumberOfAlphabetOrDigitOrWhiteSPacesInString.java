@@ -1,0 +1,44 @@
+package StringProgram;
+
+public class TotalNumberOfAlphabetOrDigitOrWhiteSPacesInString
+{
+	public static void main(String[] args)
+	{
+		String str="--abc 12 @! ph";
+		int countLetter=0;
+		int countSpecialChar=0;
+		int countDigit=0;
+		int countWhiteSpace=0;
+		
+		for(int i=0;i<=str.length()-1;i++)
+		{
+			char ch=str.charAt(i);
+			
+			if(Character.isLetter(ch))
+			{
+				countLetter++;
+				
+			}
+			else if(Character.isDigit(ch))
+			{
+				countDigit++;
+				
+			}
+			else if(Character.isWhitespace(ch))
+			{
+				countWhiteSpace++;
+			}
+			else
+			{
+				countSpecialChar++;
+				
+			}
+		}
+		System.out.println("Letter:"+countLetter);
+		System.out.println("Digit:"+countDigit);
+		System.out.println("WhiteSPace:"+countWhiteSpace);
+		System.out.println("Special CHar:"+countSpecialChar);
+		
+	}
+
+}

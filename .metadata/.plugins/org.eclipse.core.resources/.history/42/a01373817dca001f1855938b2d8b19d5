@@ -1,0 +1,25 @@
+package javaProgram;
+
+//public class finalChildClass extends finalParentClass
+public class finalChildClass
+{
+	public static void main(String[] args) 
+	{
+		finalParentClass fpc1=new finalParentClass();
+		//fpc1.m1();
+		
+		finalChildClass fcc1=new finalChildClass();
+		//fcc1.m1();
+		
+		fpc1.mm1();
+		
+		
+		
+	}
+	
+	public final void  m2()
+	{
+		System.out.println("final m2 method running");
+	}
+
+}

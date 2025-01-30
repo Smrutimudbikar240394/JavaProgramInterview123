@@ -1,0 +1,11 @@
+package StringProgram;
+
+public class TotalNumberOfAlphabetOrDigitOrWhiteSPacesInString
+{
+	public static void main(String[] args)
+	{
+		String str=
+		
+	}
+
+}

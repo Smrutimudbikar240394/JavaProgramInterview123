@@ -1,0 +1,57 @@
+package TestPractice;
+
+import org.testng.annotations.*;
+
+public class TestNGAnnotationsExample {
+
+    @BeforeSuite
+    public void beforeSuite() {
+        System.out.println("BeforeSuite: Set up system properties");
+    }
+
+    @BeforeTest
+    public void beforeTest() {
+        System.out.println("BeforeTest: Initialize WebDriver and open browser");
+    }
+
+    @BeforeClass
+    public void beforeClass() {
+        System.out.println("BeforeClass: Navigate to the application URL");
+    }
+
+    @BeforeMethod
+    public void beforeMethod() {
+        System.out.println("BeforeMethod: Log in to the application");
+    }
+
+    @Test(priority = 1)
+    public void searchTest() {
+        System.out.println("Test: Perform search operation");
+    }
+
+    @Test(priority = 2)
+    public void advancedSearchTest() {
+        System.out.println("Test: Perform advanced search operation");
+    }
+
+    @AfterMethod
+    public void afterMethod() {
+        System.out.println("AfterMethod: Log out of the application");
+    }
+
+    @AfterClass
+    public void afterClass() {
+        System.out.println("AfterClass: Close the application");
+    }
+
+    @AfterTest
+    public void afterTest() {
+        System.out.println("AfterTest: Quit WebDriver and close browser");
+    }
+
+    @AfterSuite
+    public void afterSuite() {
+        System.out.println("AfterSuite: Clean up environment");
+    }
+}
+

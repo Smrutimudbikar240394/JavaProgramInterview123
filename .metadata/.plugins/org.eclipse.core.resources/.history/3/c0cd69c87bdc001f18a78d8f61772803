@@ -1,0 +1,15 @@
+package StringProgram;
+
+public class TotalNumberOfAlphabetOrDigitOrWhiteSPacesInString
+{
+	public static void main(String[] args)
+	{
+		String str="--abc 12 @! ph";
+		int countLetter=0;
+		int countSpecialChar=0;
+		int countDigit=0;
+		int countWhiteSpace=0;
+		
+	}
+
+}

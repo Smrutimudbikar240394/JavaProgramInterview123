@@ -1,0 +1,23 @@
+package CollectionProgram;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class LargestSmallest 
+	{
+	    public static void main(String[] args) 
+	    {
+	        List<Integer> list = new ArrayList<>(Arrays.asList(1, 9, 3, 7, 4, 8));
+	        
+	        int max = Collections.max(list);
+	        int min = Collections.min(list);
+	        
+	        System.out.println("Largest Element: " + max);
+	        System.out.println("Smallest Element: " + min);
+	    }
+	}
+
+
+

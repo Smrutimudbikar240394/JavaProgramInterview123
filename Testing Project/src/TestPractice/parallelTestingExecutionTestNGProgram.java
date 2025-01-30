@@ -1,0 +1,23 @@
+package TestPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class parallelTestingExecutionTestNGProgram 
+{
+	 @Test
+	    public void loginToFacebook() {
+	        System.out.println("Facebook login");
+	        WebDriver driver=new ChromeDriver();
+	        driver.get("https://www.facebook.com/r.php");
+	    }
+	 @Test
+	 public void TC1()
+	 {
+		 Reporter.log("TC1 Running",true);
+	 }
+	 
+
+}

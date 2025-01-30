@@ -1,0 +1,16 @@
+package Libraries;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseClass 
+{
+	WebDriver driver;
+	public void initalizeBrowser()
+	{
+		driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("");
+	}
+
+}

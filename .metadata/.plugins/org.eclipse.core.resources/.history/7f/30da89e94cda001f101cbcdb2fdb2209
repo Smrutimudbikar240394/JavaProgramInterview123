@@ -1,0 +1,16 @@
+package AllPrograms;
+
+public class FactorialProgram 
+{
+	public static void main(String[] args) 
+	{
+		int num=5;
+		int facorial=1;
+		for(int i=num;i>0;i--)
+		{
+			facorial=facorial*i;
+		}
+		
+	}
+
+}

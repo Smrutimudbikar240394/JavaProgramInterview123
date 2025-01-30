@@ -1,0 +1,32 @@
+package StringProgram;
+
+public class ReverseString 
+{
+	public static void main(String[] args) 
+	{
+		String str="The Sun is brightest star in universe";
+		String reverse="";
+		
+		char[] a=str.toCharArray();
+		System.out.println("Given String : "+str);
+		
+		int length=str.length();
+		
+		for(int i=length-1;i>=0;i--)
+		{
+			reverse=reverse+a[i];
+		}
+		
+		System.out.println("The Reverse is : "+reverse);
+		
+		
+		
+		//StringBuffer
+		
+		StringBuffer sb=new StringBuffer(str);
+		StringBuffer b=sb.reverse();
+		System.out.println("Using String Buffer :"+b);
+		
+	}
+
+}

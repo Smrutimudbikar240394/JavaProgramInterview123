@@ -1,0 +1,15 @@
+package javaProgram;
+
+
+
+public class thisAndSuperKeyword 
+{
+	int p=20;
+	
+	public void m11()
+	{
+		
+	
+	}
+
+}

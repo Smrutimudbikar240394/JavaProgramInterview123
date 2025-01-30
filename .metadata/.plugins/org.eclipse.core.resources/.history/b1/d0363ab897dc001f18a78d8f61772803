@@ -1,0 +1,18 @@
+package CollectionProgram;
+
+import java.util.HashMap;
+
+public class HashmapMethods 
+{
+	public static void main(String[] args) 
+	{
+		HashMap<Integer, String> mp=new HashMap<Integer, String>();
+		mp.put(101,"ramesh");
+		mp.put(102,"Suresh");
+		mp.put(104, "mahesh");
+		mp.put(103, "rakesh");
+		mp.put(103, "abhilesh");
+		
+	}
+
+}

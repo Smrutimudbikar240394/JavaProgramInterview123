@@ -1,0 +1,19 @@
+package AllPrograms;
+
+public class MultTwoNumberWithoutMultOperator 
+{
+	public static void main(String[] args)
+	{
+		int num1=2;
+		int num2=3;
+		int sum=0;
+		for(int i=1;i<=num1;i++)
+		{
+			sum=sum+num2;
+			
+		}
+		System.out.println(sum);
+		
+	}
+
+}

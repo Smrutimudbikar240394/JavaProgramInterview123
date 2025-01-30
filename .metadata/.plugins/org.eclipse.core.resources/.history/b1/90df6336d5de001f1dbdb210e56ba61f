@@ -1,0 +1,6 @@
+Feature: Login Functionality of F Application
+Scenario: Login with credentials on F Application
+Given: User is on login page for F application
+When : User enter username for F Application
+And User click on password for F Application
+Then User is redirected to dashboard page for F Application

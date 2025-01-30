@@ -1,0 +1,95 @@
+package TestPractice;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class TestNGKeywordProgram 
+{
+
+	    @BeforeSuite
+	    public void beforeSuite() {
+	        System.out.println("BeforeSuite: Set up system properties");
+	    }
+
+	    @BeforeTest
+	    public void beforeTest() {
+	        System.out.println("BeforeTest: Initialize WebDriver and open browser");
+	    }
+
+	    @BeforeClass
+	    public void beforeClass() {
+	        System.out.println("BeforeClass: Navigate to the application URL");
+	    }
+
+	    @BeforeMethod
+	    public void beforeMethod() {
+	        System.out.println("BeforeMethod: Log in to the application");
+	    }
+
+	    @Test(priority = 1)
+	    public void searchTest() {
+	        System.out.println("Test 1: Perform search operation");
+	    }
+
+	    @Test(priority = 2)
+	    public void advancedSearchTest() {
+	        System.out.println("Test 2: Perform advanced search operation");
+	    }
+	    @Test(invocationCount = 5)
+	    public void selectItem()
+	    {
+	    	System.out.println("Test 3: Select Item for cart");
+	    }
+	    @Test
+	    public void checkRate()
+	    {
+	    	
+	    	System.out.println("Test 4: Item rate verified");
+	    }
+	    
+	    
+	    @Test(timeOut = 2000)
+	    public void addToCart() throws InterruptedException
+	    {
+	    	Thread.sleep(5000);
+	    	System.out.println("Test 4: Item Added to Cart");
+	    }
+	    
+	    @Test(dependsOnMethods = {"checkRate,addToCart"})
+	    public void checkoutItem()
+	    {
+	    	
+	    	System.out.println("Test 4: Item Added to Cart is checkout");
+	    }
+
+	    @AfterMethod
+	    public void afterMethod() {
+	        System.out.println("AfterMethod: Log out of the application");
+	    }
+
+	    @AfterClass
+	    public void afterClass() {
+	        System.out.println("AfterClass: Close the application");
+	    }
+
+	    @AfterTest
+	    public void afterTest() {
+	        System.out.println("AfterTest: Quit WebDriver and close browser");
+	    }
+
+	    @AfterSuite
+	    public void afterSuite() {
+	        System.out.println("AfterSuite: Clean up environment");
+	    }
+	
+
+
+
+}

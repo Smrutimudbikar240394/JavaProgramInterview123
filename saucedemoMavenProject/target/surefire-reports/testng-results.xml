@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T09:01:17 IST" name="Surefire suite" finished-at="2024-12-20T09:01:37 IST" duration-ms="20208">
+    <groups>
+    </groups>
+    <test started-at="2024-12-20T09:01:17 IST" name="Surefire test" finished-at="2024-12-20T09:01:37 IST" duration-ms="20208">
+      <class name="Module1_LoginTest.SwagLabLoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_LoginTest.SwagLabLoginTest@2fb3536e]" started-at="2024-12-20T09:01:17 IST" name="openBrowser" finished-at="2024-12-20T09:01:27 IST" duration-ms="10186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_LoginTest.SwagLabLoginTest@2fb3536e]" started-at="2024-12-20T09:01:27 IST" name="loginToApp" finished-at="2024-12-20T09:01:30 IST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyLogo()[pri:0, instance:Module1_LoginTest.SwagLabLoginTest@2fb3536e]" started-at="2024-12-20T09:01:30 IST" name="verifyLogo" finished-at="2024-12-20T09:01:32 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_LoginTest.SwagLabLoginTest@2fb3536e]" started-at="2024-12-20T09:01:32 IST" name="logoutFromApp" finished-at="2024-12-20T09:01:36 IST" duration-ms="4388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=SwagLabLoginTest.verifyLogo()[pri:0, instance:Module1_LoginTest.SwagLabLoginTest@2fb3536e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_LoginTest.SwagLabLoginTest@2fb3536e]" started-at="2024-12-20T09:01:36 IST" name="closeBrowser" finished-at="2024-12-20T09:01:37 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Module1_LoginTest.SwagLabLoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

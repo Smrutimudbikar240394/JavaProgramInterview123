@@ -1,0 +1,20 @@
+package AllPrograms;
+
+public class AreaAndPerimeterOfCircle 
+{
+	public static void main(String[] args) {
+		
+		double radious=21.0;
+		double perimeter,area;
+		
+		//perimeter
+		perimeter=2*Math.PI*radious;
+		
+		//Area
+		area=Math.PI*radious;
+		
+		System.out.println("permieter of circle:"+perimeter);
+		System.out.println("Area of Circle:"+area);
+	}
+
+}

@@ -1,0 +1,29 @@
+package AllPrograms;
+
+public class RevereseNumber 
+{
+	public static void main(String[] args) {
+		int num=2345;
+		int num2=5678;
+		int reverse=0;
+		int temp=0;
+		
+		System.out.println("Number :"+num);
+		
+		while(num>0)
+		{
+			temp=num%10;
+			reverse=reverse*10+temp;
+			num=num/10;
+		}
+		
+		System.out.println("Reverse Number :"+reverse);
+		
+		
+		
+		StringBuffer sb=new StringBuffer(String.valueOf(num2));
+		StringBuffer b=sb.reverse();
+		System.out.println("Reverse of num2:"+b);
+	}
+
+}

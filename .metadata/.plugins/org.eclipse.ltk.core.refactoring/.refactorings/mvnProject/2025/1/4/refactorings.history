@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;mvnProjectModule1_LoginTest&apos; to &apos;Module1_LoginTest&apos;&#x0D;&#x0A;- Original project: &apos;mvnProject&apos;&#x0D;&#x0A;- Original element: &apos;mvnProject/src/test/java/mvnProjectModule1_LoginTest&apos;&#x0D;&#x0A;- Renamed element: &apos;mvnProject/src/test/java/Module1_LoginTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;mvnProjectModule1_LoginTest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;mvnProjectModule1_LoginTest" name="Module1_LoginTest" qualified="false" references="true" stamp="1737702066464" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,20 @@
+package javaProgram;
+
+public final class finalParentClass
+{
+	public void m1()
+	{
+		System.out.println("m1 method running");
+	}
+	
+	public final void mm1()
+	{
+		System.out.println("mm1 method running");
+	}
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
